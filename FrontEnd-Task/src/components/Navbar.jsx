@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg  px-0 py-3">
       <div className="container-xl">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand fw-bold" href="/">
           UniCraft
         </a>
 

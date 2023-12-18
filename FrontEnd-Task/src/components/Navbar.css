@@ -2,7 +2,7 @@
 
 .custom-button {
     border: 1px solid black;
-    background-color: transparent;
+    background-color: white;
     color: black; /* Set text color */
     transition: background-color 0.3s, color 0.3s; /* Add a transition for a smooth effect */
   }
@@ -12,3 +12,28 @@
     color: white; /* Change text color on hover */
   }
   
+
+  
+.custom-button2 {
+  border: 1px solid black;
+  background-color: white;
+  color: black; /* Set text color */
+  transition: background-color 0.3s, color 0.3s; /* Add a transition for a smooth effect */
+}
+
+.custom-button2:hover {
+  background-color: white;
+  color: black; /* Change text color on hover */
+}
+
+.textCol{
+  color:#f3f4f83b
+}
+
+
+.custom-button3 {
+  border: 1px solid white;
+  background-color: black;
+  color: white; /* Set text color */
+  transition: background-color 0.3s, color 0.3s; /* Add a transition for a smooth effect */
+}
