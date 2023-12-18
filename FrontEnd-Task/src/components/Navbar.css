@@ -1,0 +1,14 @@
+/* CustomButton.css */
+
+.custom-button {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black; /* Set text color */
+    transition: background-color 0.3s, color 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  .custom-button:hover {
+    background-color: black;
+    color: white; /* Change text color on hover */
+  }
+  
