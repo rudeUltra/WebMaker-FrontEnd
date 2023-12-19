@@ -14,7 +14,7 @@ function Question() {
     <div className="container-fluid my-5 pt-3">
       <div className="p-5 text-center bg-light rounded-3">
         
-        <h1 className="text-dark fs-1 fw-bold">Frequently Asked Questions</h1>
+        <h1 className="text-dark fw-bold"  style={{fontSize:'58px'}}>Frequently Asked Questions</h1>
         <p className="col-lg-8 mx-auto fs-5 text-dark">
         Everything you need to know about the product and billing.
         </p>

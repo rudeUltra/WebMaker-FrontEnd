@@ -12,6 +12,13 @@ import Pricing from './components/Pricing'
 import Question from './components/Question'
 import Last from './components/LastText'
 import FooterComponent from './components/Footer'
+
+import '../src/assets/fonts/css/satoshi.css'
+
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const backgroundStyle={
   backgroundColor: '#cdc1ff',
 backgroundImage: 'linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%)',
@@ -24,6 +31,10 @@ backgroundImage: 'linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%)'
 }
 
 function App() {
+  useEffect(() => {
+    // Initialize AOS after the component has mounted
+    AOS.init();
+  }, []);
 
 
 
@@ -32,22 +43,38 @@ function App() {
   
 
   return (
-    <div>
+    <div style={{fontFamily:'Satoshi-Variable'}}>
       <div style={backgroundStyle}>
       <Navbar/>
 
       </div>
-      
+      <div data-aos="fade-up" data-aos-duration="1500">
       <Display/>
-
-   
       <FlexboxComponent/>
       <ResponsiveComponent/>
+      </div>
+      
+
+      <div data-aos="fade-right" data-aos-duration="2500">
       <JumbotronComponent1/>
+
+      </div>
+
+      <div>
       <JumbotronComponent2/>
+      </div>
+      
+      <div data-aos="zoom-in" data-aos-duration="1600">
       <Pricing/>
+
+      </div>
+      
       <Question/>
+      <div data-aos="fade-up" data-aos-duration="2500">
       <Last/>
+
+      </div>
+     
       <FooterComponent/>
      
 

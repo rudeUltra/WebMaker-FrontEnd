@@ -17,7 +17,7 @@ const JumbotronComponent2 = () => {
          </div>
         
         
-          <h1 className="text-body-emphasis fw-bold fs-1">We've been with unicraft to kick start every new project and can’t imagine working without it.</h1>
+          <h1 className="text-body-emphasis fw-bold"  style={{fontSize:'48px'}}>We've been with unicraft to kick start every new project and can’t imagine working without it.</h1>
           
           <div className="d-flex justify-content-center align-items-center pt-3" >
           <img src={img2} alt="Image 3" style={{ width: '5vw', background:'transparent' }} />

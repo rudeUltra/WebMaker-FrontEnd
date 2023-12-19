@@ -14,11 +14,11 @@ backgroundImage: 'linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%)'
 
 const Pricing = () => {
   return (
-    <div className="my-5 " >
+    <div className="my-5">
       <div className="p-5 shadow-lg text-center bg-body-transparent" style={backgroundStyle} >
         <div className="container-fluid py-5 ">
         
-          <h1 className="text-body-emphasis fw-bold fs-1">Pricing made for collaborative support.</h1>
+          <h1 className="text-body-emphasis fw-bold"  style={{fontSize:'58px'}}>Pricing made for collaborative support.</h1>
           <p className="col-lg-8 mx-auto lead">
           Plain is made for your entire company. Only pay for users that actually message customers. Everyone else is free, forever.
           </p>

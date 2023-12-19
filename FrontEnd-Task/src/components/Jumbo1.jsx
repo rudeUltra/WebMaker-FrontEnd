@@ -8,7 +8,7 @@ const JumbotronComponent1 = () => {
       <div className="p-5 text-center bg-body-transparent" >
         <div className="container py-5 ">
         
-          <h1 className="text-body-emphasis fw-bold fs-1">How it Works</h1>
+          <h1 className="text-body-emphasis fw-bold "  style={{fontSize:'48px'}}>How it Works</h1>
           <p className="col-lg-8 mx-auto lead">
           Premium designs, unlimited requests, super fast delivery, for one flat monthly fee.
           </p>
